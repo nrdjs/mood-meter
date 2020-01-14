@@ -2,3 +2,7 @@
 
 
 Design for the app 001-mood-meter
+
+Look into: 
+Chart.js 
+Express.js 
