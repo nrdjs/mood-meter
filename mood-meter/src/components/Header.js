@@ -31,10 +31,9 @@ const Header = (props) => {
             <DropdownItem divider />
             <Button color="primary" onClick={toggle}> Help me! </Button>
             <Modal isOpen={modal} className={className}>
-        <ModalHeader >Modal title</ModalHeader>
+        <ModalHeader >Everyone needs help sometimes</ModalHeader>
         <ModalBody>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </ModalBody>
+        Experienced meditators agree: a daily meditation practice can have significant benefits for mental and physical health. But one thing they probably won’t agree on? The most effective types of meditation. That’s simply because it’s different for everyone. After all, there are literally hundreds of meditation techniques encompassing practices from different traditions, cultures, spiritual disciplines, and religions. There’s not a universally accepted “best” or “most effective” type; rather, it is our individual preference that helps us choose the one (or ones) that works best for us. Here’s a breakdown of some of the more popular types of meditation to get you started.        </ModalBody>
         <ModalFooter>
           <Button color="primary" >Do Something</Button>{' '}
           <Button color="secondary" onClick={toggle}>Cancel</Button>
