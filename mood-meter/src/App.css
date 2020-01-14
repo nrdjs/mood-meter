@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: black;
+  /* background-color: black; */
   min-height: 100vh;
 }
 
@@ -26,9 +26,23 @@
   width:33%;
   border: 2px solid white;
   border-radius: 15px;
-  
+
   margin: 8% 62%;
 }
 .well-btn{
   border: 2px solid black;
+}
+
+.graph {
+  border: 3px solid red;
+}
+
+.graph-quadrant_container {
+  border: 3px solid green;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bubble-button_container {
+  border: 1px solid rgb(0, 9, 128);
 }
