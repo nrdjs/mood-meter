@@ -32,3 +32,17 @@
 .well-btn{
   border: 2px solid black;
 }
+
+.graph {
+  border: 3px solid red;
+}
+
+.graph-quadrant_container {
+  border: 3px solid green;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bubble-button_container {
+  border: 1px solid rgb(0, 9, 128);
+}
