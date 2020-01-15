@@ -2,10 +2,10 @@ import React from 'react';
 import MoodBubble from './moodBubble'
 
 
-const renderBubles = () => {
+const renderBubles = ({color}) => {
     const buttons = [];
-        for(let i=0; i<10; i++){
-        buttons.push(<MoodBubble/>)
+        for(let i=0; i<16; i++){
+        buttons.push(<MoodBubble color={color}/>)
         }
     return buttons
 }
@@ -19,18 +19,18 @@ function Graph() {
             <div className='graph-quadrant_container'>
                 <div className='graph-quadrant_row'>
                     <div className='graph-quadrant'>
-                        {renderBubles()}
+                        {renderBubles({color: 'green'})}
                     </div>
                     <div className='graph-quadrant'>
-                        {renderBubles()}
+                        {renderBubles({color: 'blue'})}
                     </div>
                 </div>
                 <div className='graph-quadrant_row'>
                     <div className='graph-quadrant'>
-                        {renderBubles()}
+                        {renderBubles({color: 'orange'})}
                     </div>
                     <div className='graph-quadrant'>
-                        {renderBubles()}
+                        {renderBubles({color: 'yellow'})}
                     </div>
                 </div>
             </div>

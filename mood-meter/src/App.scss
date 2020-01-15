@@ -1,0 +1,21 @@
+.bubble-button {
+    border: 1px solid rgb(0, 9, 128);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    &--blue {
+      background: blueviolet;
+    }
+    &--orange {
+      background: orange;
+    }
+    &--green {
+      background: green;
+    }
+    &--yellow {
+      background: yellowgreen;
+    }
+    &_container {
+    margin: 18px;
+    }
+  }
