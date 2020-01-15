@@ -2,10 +2,16 @@ import React from 'react';
 import MoodBubble from './moodBubble'
 
 
-const renderBubles = ({color}) => {
+
+
+const renderBubles = ({props, color, handleClick}) => {
+    function handleClick(props) {
+        alert("Get Fucked");
+    }
+
     const buttons = [];
         for(let i=0; i<16; i++){
-        buttons.push(<MoodBubble color={color}/>)
+        buttons.push(<MoodBubble color={color} onClick={handleClick}/>)
         }
     return buttons
 }

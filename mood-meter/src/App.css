@@ -23,7 +23,9 @@
   border-radius: 15px;
 }
 
-
+ p{
+  border: 3px solid blue;
+}
 
 
 .login{
@@ -65,6 +67,7 @@
 }
 
 
+
 .bubble-button_container {
 
   border: 1px solid rgb(0, 9, 128);
@@ -72,5 +75,6 @@
 
 
 }
+
 
 
