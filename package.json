@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nrdjs/mood-meter/issues"
   },
-  "homepage": "https://github.com/nrdjs/mood-meter#readme"
+  "homepage": "https://github.com/nrdjs/mood-meter#readme",
+  "dependencies": {
+    "sass": "^1.24.4"
+  }
 }

@@ -1,9 +1,10 @@
 import React from 'react'
 
-function MoodBubble() {
+function MoodBubble({color}) {
     return (
         <div className='bubble-button_container'>
-            <button className='bubble-button'>
+            <button
+                className={color ? `bubble-button bubble-button--${color}` : 'bubble-button'}>
 
             </button>
         </div>
