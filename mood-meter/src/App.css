@@ -18,7 +18,9 @@
   box-shadow: 10px 2px 10px grey;
 }
 
-
+ p{
+  border: 3px solid blue;
+}
 
 
 .login{
@@ -55,8 +57,4 @@
   justify-content: center;
 }
 
-
-.bubble-button_container {
-
-}
 
