@@ -1,9 +1,6 @@
 
-
-
-
 import React from 'react';
-import { Col, Row, Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import { Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 const Login = (props) => {
   return (
@@ -20,11 +17,8 @@ const Login = (props) => {
             <Input type="password" name="password" id="examplePassword" placeholder="Password goes here...dont not put Password" />
           </FormGroup>
         </Col>
-      <FormGroup check>
-        <Input type="checkbox" name="check" id="exampleCheck"/>
-        <Label for="exampleCheck" check>Check me out</Label>
-      </FormGroup>
-      <Button className="well-btn">Welcome!</Button>
+     
+      <Button>Welcome!</Button>
       
       <Button >Not a member?</Button>
     </Form>
